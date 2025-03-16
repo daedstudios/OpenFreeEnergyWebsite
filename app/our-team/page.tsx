@@ -10,7 +10,7 @@ const page = () => {
         We&apos;ve assembled a team of talented developers with significant
         experience in the realm of computational chemistry.
       </h2>
-      <div className="mt-20 flex flex-row flex-wrap justify-center gap-8 px-16">
+      <div className="mt-20 flex flex-row flex-wrap justify-center gap-8 md:px-16 lg:px-36 xl:px-52">
         {[...team_data]
           .sort((a, b) => a.order - b.order)
           .map((member, index) => (

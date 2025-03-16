@@ -127,8 +127,8 @@ export const team_data: TeamMember[] = [
   },
   {
     name: "Benjamin Ries",
-    position:
-      "(Emeritus) Software Scientist / Post Doc, OpenFE & Boehringer Ingelheim",
+    position: "(Emeritus) Software Scientist / Post Doc",
+    affiliation: " OpenFE & Boehringer Ingelheim",
     image_path: "/images/team/BenjaminRies.jpg",
     github: "RiesBen",
     scholar: "citations?hl=en&user=r07_fl4AAAAJ",
