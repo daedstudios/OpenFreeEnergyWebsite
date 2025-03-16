@@ -5,13 +5,13 @@ import React from "react";
 const NavBar = () => {
   return (
     <div className="top-0 left-0 fixed w-full h-20 flex flex-row justify-between bg-foreground z-100">
-      <Link href={"/"}>
+      <Link href={"/"} className="flex items-center ml-6 h-full">
         <Image
           src="/images/Squaredcircle_white_text.svg"
           alt="Open Free Energy"
           width={200}
           height={50}
-          className="ml-6"
+          className="my-auto"
         />
       </Link>
       <div className="flex items-center space-x-6 mr-6">

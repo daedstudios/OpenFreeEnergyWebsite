@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="relative w-full overflow-hidden min-h-screen bg-foreground flex flex-row items-center justify-between md:px-16 lg:px-36 xl:px-52">
+    <div className="relative w-full overflow-hidden min-h-screen bg-foreground/90 flex flex-row items-center justify-between md:px-16 lg:px-36 xl:px-52">
       <Image
         src="/background.png"
         fill
